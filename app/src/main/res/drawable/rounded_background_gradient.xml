@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#6A9EEC" /> <!-- Màu nền -->
+    <corners android:radius="16dp" /> <!-- Bo góc -->
+    <gradient
+        android:startColor="#6A9EEC"
+        android:endColor="#4C74FF"
+        android:angle="45" /> <!-- Gradient màu -->
+</shape>

@@ -1,0 +1,51 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <!-- Thời gian -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background_time"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Tóm tắt -->
+    <TextView
+        android:id="@+id/tvSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:padding="8dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_background"
+        app:layout_constraintTop_toBottomOf="@id/tvTemperature"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Nhiệt độ -->
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_background"
+        app:layout_constraintTop_toBottomOf="@id/tvTime"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
